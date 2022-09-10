@@ -1,0 +1,53 @@
+body {
+    font-family: "Times New Roman", Times, serif;
+  }
+
+.cabecalho {
+    background-color: rgba(85, 87, 85, 0.911);
+    height: 75px;
+}
+
+.cabecalho > a {
+    text-decoration: none;
+    line-height: 4.0;
+    margin-left: 30px;
+    color: white;
+    font-style: bold;
+}
+
+.cabecalho > a:hover {
+    color: red;
+  }
+
+.container_Titulo {
+    max-width: 70ch;
+    margin-left: 30px;
+    padding-bottom: 10px;
+}
+
+.container_texto {
+    max-width: 70ch;
+    margin-left: 30px;
+    padding-bottom: 10px;
+}
+
+.botao_Saber {
+    border-radius: 10px;
+    color: white;
+    width: 100px;
+    padding: 10px 10px 10px 10px;
+    margin-left: 30px;
+    background-color: #666;
+    font-style: bold;
+  }
+  
+  .botao_Saber:hover {
+    background-color: red;
+    
+  }
+
+  .botao_Saber:active {
+    background-color: red;
+    box-shadow: 0 5px #666;
+    transform: translateY(4px);
+  }
